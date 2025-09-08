@@ -3,7 +3,7 @@ const INFO = {
 		title: "Reactfolio by Muhammad Gibran",
 		name: "Muhammad Gibran",
 		email: "mhd.giibraan@gmail.com",
-		logo: "../logo.png",
+		logo: "../Gibran_ico.png",
 	},
 
 	socials: {
