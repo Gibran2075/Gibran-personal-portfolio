@@ -7,18 +7,17 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
 		github: "https://github.com/Gibran2075?tab=repositories",
 		linkedin: "https://linkedin.com/",
 		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
 	},
 
 	homepage: {
-		title: "Hello I'm Gibran, Fullstack Web Developer At Solusi 247.",
+		title: "Hi, I'm Gibran — Fullstack Web Developer.",
 		description:
-			"I am a fullstack with expertise in React JS, Node JS, Tailwind CSS. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I am a Fullstack Web Developer with 2+ years of hands-on experience building modern, scalable, and secure applications. My expertise includes HTML, CSS, JavaScript, and Python, along with frameworks such as React.js, Vue.js, Tailwind CSS, and Flask. \
+			I specialize in creating responsive, user-friendly digital solutions that deliver real business value. Passionate about problem-solving and clean, maintainable code, I continuously explore new technologies to stay ahead of industry trends. \
+			If you’re looking for a reliable freelance developer to bring your ideas to life and deliver high-quality results, I’m ready to collaborate.",
 	},
 
 	about: {
@@ -35,48 +34,48 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Web Shopping",
+			title: "Real Estate | Landing Page",
 			description:
 				"React Shopping Experience – Website E-Commerce Modern dengan Tampilan Elegan & Interaktif",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "../react_js.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://real-estate-portfolio-azure.vercel.app/",
 		},
 
-		{
-			title: "Web Film",
-			description:
-				"MovieVerse – Eksplorasi Dunia Film dengan React JS, Temukan Rekomendasi & Detail Favoritmu",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+		// {
+		// 	title: "Web Film",
+		// 	description:
+		// 		"MovieVerse – Eksplorasi Dunia Film dengan React JS, Temukan Rekomendasi & Detail Favoritmu",
+		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+		// 	linkText: "View Project",
+		// 	link: "https://github.com",
+		// },
+
+		// {
+		// 	title: "Web API Dashboard",
+		// 	description:
+		// 		"Web Dashboard dibuat dengan ReactJs dan ChartJs untuk menampilkan data dari team data engineer agar menampilkan data yang dinamis dan interaktif.",
+		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+		// 	linkText: "View Project",
+		// 	link: "https://github.com",
+		// },
 
 		{
-			title: "Web API Dashboard",
-			description:
-				"Web Dashboard dibuat dengan ReactJs dan ChartJs untuk menampilkan data dari team data engineer agar menampilkan data yang dinamis dan interaktif.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Web Weather Condition API",
+			title: "Web Shopping",
 			description:
 				"WeatherNow – Aplikasi Cuaca Real-Time Berbasis API dengan Desain Responsif & Dinamis",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "../react_js.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Gibran2075/E-Commerce-web.github.io",
 		},
 
 		{
 			title: "Node JS API for Mobile Apps",
 			description:
 				"Merancang API yang efisien dan skalabel menggunakan Node.js untuk mendukung aplikasi mobile dengan performa optimal.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "../react_js.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Gibran2075/gym_exercise",
 		},
 	],
 };

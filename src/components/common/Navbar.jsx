@@ -8,10 +8,10 @@ const Navbar = () => {
             <div className='navbar'>
                 <div className='nav-background'>
                     <ul className='nav-list'>
-                        <a className='nav-item' href="#Header">Home</a>
-                        <a className='nav-item' href="#Header">About</a>
-                        <a className='nav-item' href="#Header">Projects</a>
-                        <a className='nav-item' href="#Header">Contact</a>
+                        <a className='nav-item' href="#Homepage">Home</a>
+                        <a className='nav-item' href="">About</a>
+                        <a className='nav-item' href="">Projects</a>
+                        <a className='nav-item' href="">Contact</a>
                     </ul>
                 </div>
             </div>

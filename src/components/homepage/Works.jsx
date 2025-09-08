@@ -28,7 +28,7 @@ const Works = () => {
 
                     <div className="work">
                         <img
-                            src="./twitter.png"
+                            src="./freelancer_logo.png"
                             alt="twitter"
                             className="work-image"
                         />

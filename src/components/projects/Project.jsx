@@ -9,7 +9,7 @@ const Project = (props) => {
     const { logo, title, description, linkText, link } = props;
 
   return (
-    <div className="project">
+    <a className="project" target='_blank' href={link}>
             <div className="project-container">
                 <div className="project-logo">
                     <img src={logo} alt="logo" />
@@ -24,7 +24,7 @@ const Project = (props) => {
                     <div className="project-link-text">{linkText}</div>
                 </div>
             </div>
-    </div>
+    </a>
   )
 }
 
