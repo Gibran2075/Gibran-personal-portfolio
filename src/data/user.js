@@ -36,7 +36,7 @@ const INFO = {
 		{
 			title: "Real Estate | Landing Page",
 			description:
-				"React Shopping Experience – Website E-Commerce Modern dengan Tampilan Elegan & Interaktif",
+				"Landing page modern untuk real estate dengan desain elegan, animasi interaktif, dan pengalaman pengguna yang responsif.",
 			logo: "../react_js.png",
 			linkText: "View Project",
 			link: "https://real-estate-portfolio-azure.vercel.app/",
@@ -63,7 +63,7 @@ const INFO = {
 		{
 			title: "Web Shopping",
 			description:
-				"WeatherNow – Aplikasi Cuaca Real-Time Berbasis API dengan Desain Responsif & Dinamis",
+				"Platform e-commerce interaktif dengan tampilan minimalis, integrasi API, serta fitur belanja yang responsif di berbagai perangkat.",
 			logo: "../react_js.png",
 			linkText: "View Project",
 			link: "https://github.com/Gibran2075/E-Commerce-web.github.io",
@@ -72,8 +72,8 @@ const INFO = {
 		{
 			title: "Node JS API for Mobile Apps",
 			description:
-				"Merancang API yang efisien dan skalabel menggunakan Node.js untuk mendukung aplikasi mobile dengan performa optimal.",
-			logo: "../react_js.png",
+				"API backend ringan dan scalable berbasis Node.js untuk mendukung aplikasi mobile dengan performa cepat dan integrasi mulus.",
+			logo: "../node_js.png",
 			linkText: "View Project",
 			link: "https://github.com/Gibran2075/gym_exercise",
 		},
