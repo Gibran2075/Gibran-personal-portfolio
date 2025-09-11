@@ -5,6 +5,7 @@ import AllProjects from "../components/projects/AllProject";
 import Works from "../components/homepage/Works"
 import Footer from "../components/common/Footer"
 import INFO from "../data/user";
+import {motion} from 'framer-motion'
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -65,14 +66,24 @@ const homepage = () => {
     <div className='page-content'>
         <Navbar/>
         <div className='content-wrapper'>
-            <div className="homepage-logo-container">
+            <motion.div 
+            initial={{opacity: 0, x: -200}}
+            transition={{duration: 1}}
+            whileInView={{opacity: 1, x: 0}}
+            viewport={{once: true}}
+            className="homepage-logo-container">
                 <div style={logoStyle}>
                     <Logo width={logoSize} link={false} />
                 </div>
-            </div>
+            </motion.div>
 
             <div className="homepage-container">
-                <div className="homepage-first-area" id="About">
+                <motion.div 
+                initial={{opacity: 0, y: -200}}
+                transition={{duration: 1}}
+                whileInView={{opacity: 1, y: 0}}
+                viewport={{once: true}}
+                className="homepage-first-area" id="About">
                     <div className="homepage-first-area-left-side">
                         <div className="title homepage-title">
                             {INFO.homepage.title}
@@ -94,9 +105,14 @@ const homepage = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
 
-                <div className="homepage-socials">
+                <motion.div 
+                initial={{opacity: 0, x: -200}}
+                transition={{duration: 1}}
+                whileInView={{opacity: 1, x: 0}}
+                viewport={{once: true}}
+                className="homepage-socials">
                     <a
                         href={INFO.socials.github}
                         target="_blank"
@@ -127,27 +143,45 @@ const homepage = () => {
                             className="homepage-social-icon"
                         />
                     </a>
-                </div>
+                </motion.div>
 
-                <div className="homepage-projects">
+                <motion.div 
+                initial={{opacity: 0, y: 200}}
+                transition={{duration: 1}}
+                whileInView={{opacity: 1, y: 0}}
+                viewport={{once: true}}
+                className="homepage-projects">
                     <AllProjects />
-                </div>
+                </motion.div>
 
-                <div className="homepage-after-title">
+                <motion.div 
+                initial={{opacity: 0, x: -200}}
+                transition={{duration: 1}}
+                whileInView={{opacity: 1, x: 0}}
+                viewport={{once: true}}
+                className="homepage-after-title">
                     <div className="homepage-works">
                         <Works />
                     </div>
-                </div>
+                </motion.div>
 
-                <div>
+                <motion.div initial={{opacity: 0, y: 100}}
+                transition={{duration: 1}}
+                whileInView={{opacity: 1, y: 0}}
+                viewport={{once: true}}>
                     <div>
                         <Contact/>
                     </div>
-                </div>
+                </motion.div>
 
-                <div className="page-footer">
+                <motion.div
+                initial={{opacity: 0, x: 100}}
+                transition={{duration: 1}}
+                whileInView={{opacity: 1, x: 0}}
+                viewport={{once: true}}
+                className="page-footer">
                     <Footer />
-                </div>
+                </motion.div>
             </div>
         </div>
     </div>
