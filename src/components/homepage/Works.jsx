@@ -12,36 +12,40 @@ const Works = () => {
             icon={faBriefcase}
             title="Work"
             body={
-                <div className="works-body">
-                    <div className="work">
-                        <img
-                            src="./solusi.jpeg"
-                            alt="facebook"
-                            className="work-image"
-                        />
-                        <div className="work-title">Solusi 247</div>
-                        <div className="work-subtitle">
-                            Website Developer
-                        </div>
-                        <div className="work-duration">2023 - Present</div>
-                    </div>
-
-                    <div className="work">
-                        <img
-                            src="./freelancer_logo.png"
-                            alt="twitter"
-                            className="work-image"
-                        />
-                        <div className="work-title">Freelance</div>
-                        <div className="work-subtitle">
-                            Frontend Developer
-                        </div>
-                        <div className="work-duration">2024 - Present</div>
+            <div className="works-body">
+                <div className="work">
+                <div className="work-left">
+                    <img
+                    src="./solusi.jpeg"
+                    alt="facebook"
+                    className="work-image"
+                    />
+                    <div className="work-title-sub">
+                    <div className="work-title">Solusi 247</div>
+                    <div className="work-subtitle">Website Developer</div>
                     </div>
                 </div>
+                <div className="work-duration">2023 - Present</div>
+                </div>
+
+                <div className="work">
+                <div className="work-left">
+                    <img
+                    src="./freelancer_logo.png"
+                    alt="twitter"
+                    className="work-image"
+                    />
+                    <div className="work-title-sub">
+                    <div className="work-title">Freelance</div>
+                    <div className="work-subtitle">Frontend Developer</div>
+                    </div>
+                </div>
+                <div className="work-duration">2024 - Present</div>
+                </div>
+            </div>
             }
         />
-    </div>
+        </div>
   )
 }
 
