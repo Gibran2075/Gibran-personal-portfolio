@@ -6,7 +6,7 @@ import './styles/allProject.css'
 
 const AllProject = () => {
   return (
-    <div className="all-projects-container">
+    <div className="all-projects-container" id='Projects'>
         {INFO.projects.map((project, index) => (
             <div className="all-projects-project" key={index}>
                 <Project
