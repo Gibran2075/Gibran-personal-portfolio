@@ -70,7 +70,7 @@ const INFO = {
 		},
 
 		{
-			title: "Node JS API for Mobile Apps",
+			title: "Node JS API for Web Application",
 			description:
 				"API backend ringan dan scalable berbasis Node.js untuk mendukung aplikasi mobile dengan performa cepat dan integrasi mulus.",
 			logo: "../node_js.png",
