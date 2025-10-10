@@ -8,12 +8,12 @@ const INFO = {
 
 	socials: {
 		github: "https://github.com/Gibran2075?tab=repositories",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
+		linkedin: "https://www.linkedin.com/in/mhd-gibran?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+		instagram: "https://www.instagram.com/mhd_gbrn?igsh=MXFpbTFmNzQwcmNjaw==",
 	},
 
 	homepage: {
-		title: "Hi, I'm Gibran — Fullstack Web Developer.",
+		title: "Hi, I'm Gibran — Frontend Web Developer.",
 		description:
 			"I am a Fullstack Web Developer with 2+ years of hands-on experience building modern, scalable, and secure applications. My expertise includes HTML, CSS, JavaScript, and Python, along with frameworks such as React.js, Vue.js, Tailwind CSS, and Flask. \
 			I specialize in creating responsive, user-friendly digital solutions that deliver real business value. Passionate about problem-solving and clean, maintainable code, I continuously explore new technologies to stay ahead of industry trends. \
@@ -36,7 +36,7 @@ const INFO = {
 		{
 			title: "Real Estate | Landing Page",
 			description:
-				"Landing page modern untuk real estate dengan desain elegan, animasi interaktif, dan pengalaman pengguna yang responsif.",
+				"A modern and elegant real estate landing page featuring sleek design, smooth animations, and a fully responsive user experience that captures attention and drives engagement.",
 			logo: "../react_js.png",
 			linkText: "View Project",
 			link: "https://real-estate-portfolio-azure.vercel.app/",
@@ -61,12 +61,12 @@ const INFO = {
 		// },
 
 		{
-			title: "Web Shopping",
+			title: "Template Web Car Rental Service",
 			description:
-				"Platform e-commerce interaktif dengan tampilan minimalis, integrasi API, serta fitur belanja yang responsif di berbagai perangkat.",
+				"A modern and responsive car rental service UI built with React, Tailwind CSS, and Shadcn, featuring a clean layout and smooth user interface design.",
 			logo: "../react_js.png",
 			linkText: "View Project",
-			link: "https://github.com/Gibran2075/E-Commerce-web.github.io",
+			link: "https://car-rental-service-sepia.vercel.app/",
 		},
 
 		{
