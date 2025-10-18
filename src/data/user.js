@@ -73,7 +73,7 @@ const INFO = {
     },
 
     {
-      title: "Node JS API for Web Application",
+      title: "Landing Page Travel",
       description:
         "API backend ringan dan scalable berbasis Node.js untuk mendukung aplikasi mobile dengan performa cepat dan integrasi mulus.",
       logo: "../node_js.png",
