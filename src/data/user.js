@@ -40,9 +40,9 @@ const INFO = {
       title: "Real Estate | Landing Page",
       description:
         "A modern and elegant real estate landing page featuring sleek design, smooth animations, and a fully responsive user experience that captures attention and drives engagement.",
-      logo: "../react_js.png",
-      linkText: "View Project",
-      link: "https://real-estate-portfolio-azure.vercel.app/",
+      image: "src/assets/Project1.png",
+      github: "https://github.com/Gibran2075",
+      demo: "https://real-estate-portfolio-azure.vercel.app/",
     },
 
     // {
@@ -67,18 +67,18 @@ const INFO = {
       title: "Website Rent Car | Landing Page",
       description:
         "A modern and responsive car rental service UI built with React, Tailwind CSS, and Shadcn, featuring a clean layout and smooth user interface design.",
-      logo: "../react_js.png",
-      linkText: "View Project",
-      link: "https://template-car-rental.vercel.app/",
+      image: "src/assets/Project2.png",
+      github: "https://github.com/Gibran2075",
+      demo: "https://template-car-rental.vercel.app/",
     },
 
     {
-      title: "Landing Page Travel",
+      title: "Web Dashboard Analytics",
       description:
-        "API backend ringan dan scalable berbasis Node.js untuk mendukung aplikasi mobile dengan performa cepat dan integrasi mulus.",
-      logo: "../node_js.png",
-      linkText: "View Project",
-      link: "https://github.com/Gibran2075/gym_exercise",
+        "A modern, real-time analytics dashboard developed using React and Tailwind CSS. The platform transforms raw data into meaningful insights through dynamic charts, reusable components, and a fully responsive design. Focused on performance, scalability, and user experience to deliver intuitive business intelligence solutions.",
+      image: "src/assets/Project3.png",
+      github: "https://github.com/Gibran2075",
+      demo: "https://fashion-insights-dashboard.vercel.app/",
     },
   ],
 };
