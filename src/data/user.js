@@ -15,10 +15,11 @@ const INFO = {
 
   homepage: {
     title: "Hi, I'm Gibran — Frontend Web Developer.",
-    description:
-      "I am a Fullstack Web Developer with 2+ years of hands-on experience building modern, scalable, and secure applications. My expertise includes HTML, CSS, JavaScript, PHP and Python, along with frameworks such as React.js, Vue.js, CI 4, Tailwind CSS, and Flask. \
-			I specialize in creating responsive, user-friendly digital solutions that deliver real business value. Passionate about problem-solving and clean, maintainable code, I continuously explore new technologies to stay ahead of industry trends. \
-			If you’re looking for a reliable freelance developer to bring your ideas to life and deliver high-quality results, I’m ready to collaborate.",
+    description: [
+      "I build modern, responsive, and scalable web applications.",
+      "With 2+ years of hands-on experience, I help turn ideas into reliable digital products using React, Vue, and Flask.",
+      "Focused on clean code, great user experience, and delivering real results."
+    ]
   },
 
   about: {

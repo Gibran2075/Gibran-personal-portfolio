@@ -8,19 +8,16 @@ const Footer = () => {
         <div className="footer-links">
             <ul className="footer-nav-link-list">
                 <li className="footer-nav-link-item">
-                    <a>Home</a>
+                    <a href="#">Home</a>
                 </li>
                 <li className="footer-nav-link-item">
-                    <a>About</a>
+                    <a href="#About">About</a>
                 </li>
                 <li className="footer-nav-link-item">
-                    <a>Projects</a>
+                    <a href="#Projects">Projects</a>
                 </li>
                 <li className="footer-nav-link-item">
-                    <a>Articles</a>
-                </li>
-                <li className="footer-nav-link-item">
-                    <a>Contact</a>
+                    <a href="#Contact">Contact</a>
                 </li>
             </ul>
         </div>

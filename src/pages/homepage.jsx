@@ -32,10 +32,10 @@ const homepage = () => {
 		const handleScroll = () => {
 			let scroll = Math.round(window.pageYOffset, 2);
 
-			let newLogoSize = 80 - (scroll * 4) / 10;
+			let newLogoSize = 105 - (scroll * 3) / 10;
 
 			if (newLogoSize < oldLogoSize) {
-				if (newLogoSize > 40) {
+				if (newLogoSize > 55) {
 					setLogoSize(newLogoSize);
 					setOldLogoSize(newLogoSize);
 					setStayLogo(false);
@@ -90,7 +90,11 @@ const homepage = () => {
                         </div>
 
                         <div className="subtitle homepage-subtitle">
-                            {INFO.homepage.description}
+                            {INFO.homepage.description.map((text, index) => (
+                                <p key={index} className="mb-1">
+                                {text}
+                                </p>
+                            ))}
                         </div>
                     </div>
 
