@@ -64,12 +64,12 @@ const INFO = {
     // },
 
     {
-      title: "Template Web Car Rental Service",
+      title: "Website Rent Car | Landing Page",
       description:
         "A modern and responsive car rental service UI built with React, Tailwind CSS, and Shadcn, featuring a clean layout and smooth user interface design.",
       logo: "../react_js.png",
       linkText: "View Project",
-      link: "https://car-rental-service-sepia.vercel.app/",
+      link: "https://template-car-rental.vercel.app/",
     },
 
     {
