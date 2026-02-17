@@ -1,3 +1,8 @@
+import Project1 from "../assets/Project1.png"
+import Project2 from "../assets/Project2.png"
+import Project3 from "../assets/Project3.png"
+import Project4 from "../assets/Project4.png"
+
 const INFO = {
   main: {
     title: "Reactfolio by Muhammad Gibran",
@@ -40,34 +45,15 @@ const INFO = {
       title: "Real Estate | Landing Page",
       description:
         "A modern and elegant real estate landing page featuring sleek design, smooth animations, and a fully responsive user experience that captures attention and drives engagement.",
-      image: "src/assets/Project1.png",
+      image: Project1,
       github: "https://github.com/Gibran2075",
       demo: "https://real-estate-portfolio-azure.vercel.app/",
     },
-
-    // {
-    // 	title: "Web Film",
-    // 	description:
-    // 		"MovieVerse – Eksplorasi Dunia Film dengan React JS, Temukan Rekomendasi & Detail Favoritmu",
-    // 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-    // 	linkText: "View Project",
-    // 	link: "https://github.com",
-    // },
-
-    // {
-    // 	title: "Web API Dashboard",
-    // 	description:
-    // 		"Web Dashboard dibuat dengan ReactJs dan ChartJs untuk menampilkan data dari team data engineer agar menampilkan data yang dinamis dan interaktif.",
-    // 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-    // 	linkText: "View Project",
-    // 	link: "https://github.com",
-    // },
-
     {
       title: "Website Rent Car | Landing Page",
       description:
         "A modern and responsive car rental service UI built with React, Tailwind CSS, and Shadcn, featuring a clean layout and smooth user interface design.",
-      image: "src/assets/Project2.png",
+      image: Project2,
       github: "https://github.com/Gibran2075",
       demo: "https://template-car-rental.vercel.app/",
     },
@@ -75,7 +61,7 @@ const INFO = {
       title: "Web Dashboard Analytics",
       description:
         "A modern, real-time analytics dashboard developed using React and Tailwind CSS. The platform transforms raw data into meaningful insights through dynamic charts, reusable components, and a fully responsive design. Focused on performance, scalability, and user experience to deliver intuitive business intelligence solutions.",
-      image: "src/assets/Project3.png",
+      image: Project3,
       github: "https://github.com/Gibran2075",
       demo: "https://fashion-insights-dashboard.vercel.app/",
     },
@@ -83,7 +69,7 @@ const INFO = {
       title: "Travel Website | Landing Page",
       description:
         "A modern and responsive website travel service UI built with React, Tailwind CSS, and Shadcn, featuring a clean layout and smooth user interface design.",
-      image: "src/assets/Project4.png",
+      image: Project4,
       github: "https://github.com/Gibran2075",
       demo: "https://fashion-insights-dashboard.vercel.app/",
     },
