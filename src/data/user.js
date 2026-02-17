@@ -71,12 +71,19 @@ const INFO = {
       github: "https://github.com/Gibran2075",
       demo: "https://template-car-rental.vercel.app/",
     },
-
     {
       title: "Web Dashboard Analytics",
       description:
         "A modern, real-time analytics dashboard developed using React and Tailwind CSS. The platform transforms raw data into meaningful insights through dynamic charts, reusable components, and a fully responsive design. Focused on performance, scalability, and user experience to deliver intuitive business intelligence solutions.",
       image: "src/assets/Project3.png",
+      github: "https://github.com/Gibran2075",
+      demo: "https://fashion-insights-dashboard.vercel.app/",
+    },
+    {
+      title: "Travel Website | Landing Page",
+      description:
+        "A modern and responsive website travel service UI built with React, Tailwind CSS, and Shadcn, featuring a clean layout and smooth user interface design.",
+      image: "src/assets/Project4.png",
       github: "https://github.com/Gibran2075",
       demo: "https://fashion-insights-dashboard.vercel.app/",
     },
