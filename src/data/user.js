@@ -71,7 +71,7 @@ const INFO = {
         "A modern and responsive website travel service UI built with React, Tailwind CSS, and Shadcn, featuring a clean layout and smooth user interface design.",
       image: Project4,
       github: "https://github.com/Gibran2075",
-      demo: "https://fashion-insights-dashboard.vercel.app/",
+      demo: "https://template-jogja-travel.vercel.app/",
     },
   ],
 };
