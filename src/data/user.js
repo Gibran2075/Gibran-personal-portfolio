@@ -2,6 +2,7 @@ import Project1 from "../assets/Project1.png"
 import Project2 from "../assets/Project2.png"
 import Project3 from "../assets/Project3.png"
 import Project4 from "../assets/Project4.png"
+import Project5 from "../assets/Project5.png"
 
 const INFO = {
   main: {
@@ -22,7 +23,7 @@ const INFO = {
     title: "Hi, I'm Gibran — Frontend Web Developer.",
     description: [
       "I build modern, responsive, and scalable web applications.",
-      "With 2+ years of hands-on experience, I help turn ideas into reliable digital products using React, Vue, and Flask.",
+      "With 3+ years of hands-on experience, I help turn ideas into reliable digital products using React, Vue, and Flask.",
       "Focused on clean code, great user experience, and delivering real results."
     ]
   },
@@ -42,17 +43,25 @@ const INFO = {
 
   projects: [
     {
+      title: "Amanda Tour and Travel",
+      description:
+        "A company profile and booking website for a car rental service in Yogyakarta. Built to improve online visibility and customer conversion, this project features responsive design, clear service presentation, WhatsApp integration for direct booking, and optimized performance for fast loading across devices.",
+      image: Project5,
+      github: "https://github.com/Gibran2075",
+      demo: "https://sewamobiljogjaamanda.com/",
+    },
+    {
       title: "Real Estate | Landing Page",
       description:
-        "A modern and elegant real estate landing page featuring sleek design, smooth animations, and a fully responsive user experience that captures attention and drives engagement.",
+        "A high-converting real estate landing page designed to showcase property listings with a clean and modern UI. Focused on user engagement, the project includes smooth animations, structured layout, and responsive design to ensure optimal browsing experience on all devices.",
       image: Project1,
       github: "https://github.com/Gibran2075",
       demo: "https://real-estate-portfolio-azure.vercel.app/",
     },
     {
-      title: "Website Rent Car | Landing Page",
+      title: "Website Rent Car | Template",
       description:
-        "A modern and responsive car rental service UI built with React, Tailwind CSS, and Shadcn, featuring a clean layout and smooth user interface design.",
+        "A reusable car rental website template built with React, Tailwind CSS, and Shadcn UI. Designed for scalability and ease of customization, it includes modular components, responsive layouts, and intuitive UI to accelerate development for similar business needs.",
       image: Project2,
       github: "https://github.com/Gibran2075",
       demo: "https://template-car-rental.vercel.app/",
@@ -60,15 +69,15 @@ const INFO = {
     {
       title: "Web Dashboard Analytics",
       description:
-        "A modern, real-time analytics dashboard developed using React and Tailwind CSS. The platform transforms raw data into meaningful insights through dynamic charts, reusable components, and a fully responsive design. Focused on performance, scalability, and user experience to deliver intuitive business intelligence solutions.",
+        "An interactive analytics dashboard that transforms raw data into actionable insights through dynamic charts and data visualization. Built with React and Tailwind CSS, the project emphasizes performance, reusable components, and responsive design for seamless monitoring across devices.",
       image: Project3,
       github: "https://github.com/Gibran2075",
       demo: "https://fashion-insights-dashboard.vercel.app/",
     },
     {
-      title: "Travel Website | Landing Page",
+      title: "Jogja Travel ID",
       description:
-        "A modern and responsive website travel service UI built with React, Tailwind CSS, and Shadcn, featuring a clean layout and smooth user interface design.",
+        "A travel service website UI concept designed to present tour packages and travel information in a clean and engaging way. Built using React, Tailwind CSS, and Shadcn UI, it focuses on user-friendly navigation, responsive layout, and modern interface design.",
       image: Project4,
       github: "https://github.com/Gibran2075",
       demo: "https://template-jogja-travel.vercel.app/",
