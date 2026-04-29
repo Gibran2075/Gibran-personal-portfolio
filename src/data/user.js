@@ -43,7 +43,7 @@ const INFO = {
 
   projects: [
     {
-      title: "Amanda Tour and Travel",
+      title: "Amanda Tour and Travel Yogyakarta",
       description:
         "A company profile and booking website for a car rental service in Yogyakarta. Built to improve online visibility and customer conversion, this project features responsive design, clear service presentation, WhatsApp integration for direct booking, and optimized performance for fast loading across devices.",
       image: Project5,
