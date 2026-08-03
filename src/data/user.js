@@ -43,6 +43,14 @@ const INFO = {
 
   projects: [
     {
+      title: "Bandung Driver | Rent Car",
+      description:
+        "Premium & Modern Car Rental Landing Page A high-converting, mobile-responsive landing page designed for car rental businesses in Bandung, West Java. Built with HTML5, Tailwind CSS, JavaScript, and Framer Motion for smooth, interactive animations.",
+      image: Project5,
+      github: "https://github.com/Gibran2075",
+      demo: "https://rent-car-website-phi.vercel.app/",
+    },
+    {
       title: "Amanda Tour and Travel Yogyakarta",
       description:
         "A company profile and booking website for a car rental service in Yogyakarta. Built to improve online visibility and customer conversion, this project features responsive design, clear service presentation, WhatsApp integration for direct booking, and optimized performance for fast loading across devices.",
