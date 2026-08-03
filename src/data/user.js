@@ -3,7 +3,7 @@ import Project2 from "../assets/Project2.png"
 import Project3 from "../assets/Project3.png"
 import Project4 from "../assets/Project4.png"
 import Project5 from "../assets/Project5.png"
-import Project6 from "../assets/Project7.png"
+import Project6 from "../assets/Project6.png"
 
 const INFO = {
   main: {
@@ -44,7 +44,7 @@ const INFO = {
 
   projects: [
     {
-      title: "Bandung Driver | Rent Car",
+      title: "Bandung Drive | Rent Car",
       description:
         "Premium & Modern Car Rental Landing Page A high-converting, mobile-responsive landing page designed for car rental businesses in Bandung, West Java. Built with HTML5, Tailwind CSS, JavaScript, and Framer Motion for smooth, interactive animations.",
       image: Project6,
